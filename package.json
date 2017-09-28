@@ -1,0 +1,35 @@
+{
+  "name": "unpop",
+  "version": "1.0.0",
+  "description": "polyfills unpop method to Array objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha test/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yjhuoh/unpop.git"
+  },
+  "keywords": [
+    "array",
+    "polyfill",
+    "unpop"
+  ],
+  "author": "yjhuoh@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yjhuoh/unpop/issues"
+  },
+  "homepage": "https://github.com/yjhuoh/unpop#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "code": "^4.0.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-config-walmart": "^1.0.1",
+    "eslint-plugin-filenames": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-mocha": "^4.7.0",
+    "mocha": "^3.3.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "extends": "walmart/configurations/es6-browser",
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "mocha"
+  ],
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "quotes": ["error", "single"],
+    "prefer-template": ["error"],
+    "filenames/match-regex": ["off"],
+    "no-magic-numbers": ["off"],
+    "func-style": ["off"],
+    "camelcase": ["off"],
+    "comma-spacing": ["off"],
+    "object-shorthand": ["off"],
+    "prefer-arrow-callback": ["off"],
+    "no-extra-parens": ["off"],
+    "max-nested-callbacks": ["error", 5],
+    "max-statements": [2, 12],
+    "strict": ["off"],
+    "no-multi-spaces": ["off"],
+    "max-params": ["error", 4],
+    "no-lonely-if": "error",
+    "no-process-exit": "error",
+    "complexity": ["error", { "max": 4 }],
+    "max-depth": ["error", { "max": 2 }],
+    "id-length": ["error", { "min": 3 , "max": 30, "exceptions": ["_", "P", "db", "up", "id", "as", "fs", "pg"]}]
+  }
+}

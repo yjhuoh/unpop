@@ -1,0 +1,10 @@
+machine:
+  node:
+    version: 6.8
+
+dependenies:
+  pre:
+    - npm install
+test:
+  override:
+    - npm run test
