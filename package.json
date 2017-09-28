@@ -1,6 +1,6 @@
 {
   "name": "unpop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "polyfills unpop method to Array objects",
   "main": "index.js",
   "scripts": {
